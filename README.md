@@ -20,3 +20,13 @@ The project is ideal for beginners and intermediate learners to practice aggrega
 
 - **Database Creation**: The project starts by creating a database named `Bank_Loan_DB`.
 - **Table Creation**: A table named `bank_loan_data` is created to store the sales data. The table structure includes columns for id,address_state,application_type,emp_length,emp_title,grade,home_ownership,issue_date,last_credit_pull_date,last_payment_date,loan_status,next_payment_date,member_id,purpose,sub_grade,term,verification_status,annual_income,dti,installment,int_rate,loan_amount,total_acc and total_payment.
+
+ CREATE DATABASE Bank_Loan_DB;
+USE Bank_Loan_DB;
+
+### 2. Data Exploration & Cleaning
+
+- **Total Loan Applications**: Calculate the total number of loan applications received.
+- **Customer Count**: Find out how many unique customers are in the dataset.
+- **Category Count**: Identify all unique product categories in the dataset.
+- **Null Value Check**: Check for any null values in the dataset and delete records with missing data.
